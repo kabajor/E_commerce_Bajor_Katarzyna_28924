@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PanelTopComponent implements OnInit {
 
-  constructor() { }
+  constructor(public mainService: MainService) { }
 
   ngOnInit(): void {
+  }
+  getCartQuantity(){
+    let quantity = 0;
+    for (const product of this.mainService.cart){
+      quantity += 1;
+    }
+    return quantity;
   }
 
 }
