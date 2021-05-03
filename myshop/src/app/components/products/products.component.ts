@@ -12,14 +12,12 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // tslint:disable-next-line: typedef
-  getProducts(){
+  getProducts() {
     this.mainService.getProducts(this.mainService.productsRequest);
   }
-  addToCart(product: any){
-    this.mainService.cart.push({product})
+  addToCart(product) {
+    this.mainService.cart.push({ product });
     console.log('dodano do koszyka produkt:');
     console.log(product);
   }
-
 }
