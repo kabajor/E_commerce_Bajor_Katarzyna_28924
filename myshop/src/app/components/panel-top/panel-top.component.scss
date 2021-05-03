@@ -2,13 +2,14 @@
 #header
 {
   width: 1400px;
-  height: 200px;
+  height: 400px;
   margin:0 auto;
   padding: 50px;
   background-color: gray;
   font-family: Verdana;
   font-size: 20px;
   color:whitesmoke;
+
 }
 #logo
 {
@@ -21,13 +22,71 @@
   border-color: slategray;
   border-radius: 5%;
   letter-spacing: 3px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 h2
 {
   font-size: 36px;
   margin-left: 380px;
 }
-button
+input
 {
-
+  width: 250px;
+  background-color: #efefef;
+  color: #666;
+  border:2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#szukanie
+{
+  width: 250px;
+  background-color: #415596;
+  font-size: 25px;
+  color: white;
+  padding: 10px 5px;
+  border: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+#szukanie:hover
+{
+  background-color: #647097;
+}
+input:focus
+{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#panel
+{
+  width: 150px;
+  background-color: #415596;
+  font-size: 15px;
+  color: white;
+  padding: 5px 5px;
+  border: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#panel:hover
+{
+  background-color: #647097;
+}
+.koszyk
+{
+  width: 150px;
+  background-color: #415596;
+  font-size: 15px;
+  color: white;
+  padding: 5px 5px;
+  border: 2px;
+  border-radius: 5px;
+  cursor: pointer;
 }
