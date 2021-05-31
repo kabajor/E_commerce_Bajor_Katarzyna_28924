@@ -1,7 +1,7 @@
 
 
   <div id="header">
-    <div style="display: flex;flex-direction: row;">
+    <div style="display: flex;flex-direction: row; ">
         <div id="logo">
           <h3>Ka Be</h3>
         </div>
@@ -19,7 +19,6 @@
         <input type="text" [(ngModel)]="this.mainService.productsRequest.name">
         <button id="szukanie" (click)="this.mainService.getProducts(this.mainService.productsRequest)" routerLink="/products">Szukaj Produktu</button>
     </div>
-
   </div>
 
 

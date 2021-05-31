@@ -5,7 +5,9 @@
   height: 400px;
   margin:0 auto;
   padding: 50px;
-  background-color: gray;
+  //background-color: gray;
+  background-image: url(laptop.jpg);
+  background-size:105%;
   font-family: Verdana;
   font-size: 20px;
   color:whitesmoke;
@@ -45,7 +47,7 @@ input
 #szukanie
 {
   width: 250px;
-  background-color: #415596;
+  background-color: rosybrown;
   font-size: 25px;
   color: white;
   padding: 10px 5px;
@@ -56,7 +58,7 @@ input
 }
 #szukanie:hover
 {
-  background-color: #647097;
+  background-color: rosybrown;
 }
 input:focus
 {
@@ -67,7 +69,7 @@ input:focus
 #panel
 {
   width: 150px;
-  background-color: #415596;
+  background-color: rosybrown;
   font-size: 15px;
   color: white;
   padding: 5px 5px;
@@ -77,12 +79,12 @@ input:focus
 }
 #panel:hover
 {
-  background-color: #647097;
+  background-color: rosybrown;
 }
 .koszyk
 {
   width: 150px;
-  background-color: #415596;
+  background-color: rosybrown;
   font-size: 15px;
   color: white;
   padding: 5px 5px;
